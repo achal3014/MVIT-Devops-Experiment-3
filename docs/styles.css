@@ -1,0 +1,22 @@
+body{
+    font-family: Aerial, sans-serif;
+    color:red;
+    background-color:black;
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#loginform{
+    background-color:black;
+    padding: 100px;
+    border-radius: 40px;
+    width: 250px;
+}
+
+input{
+    padding:5px;
+    margin:10px;
+    border-radius:5px;
+}
