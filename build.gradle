@@ -24,3 +24,8 @@ test {
 application{
     mainClass = "org.example.Main"
 }
+jar {
+    manifest{
+        attributes 'Main-Class': 'org.example.Main'
+    }
+}
